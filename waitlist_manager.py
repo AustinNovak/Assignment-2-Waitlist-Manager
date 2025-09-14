@@ -129,11 +129,11 @@ None, the list is empty. When removing or inserting at the front, the head
 must be updated carefully because it defines the first Node.
 
 When might a real engineer need a custom list like this?
-A custom linked list is useful when built-in dynamic arrays (like Python lists)
-aren’t flexible enough. For example, engineers may need a lightweight structure
-for frequent insertions/removals, VIP vs. general handling, or memory-constrained
-systems where array resizing is expensive. Linked lists also form the basis for
-more advanced structures (queues, stacks, hash chains), so understanding how to
-manually control nodes and pointers is critical in lower-level systems or
-performance-sensitive applications.
+Engineers might use a custom list like this when they need more control than
+normal arrays or lists give. For example, it’s helpful when people are being
+added and removed a lot, like a waitlist with VIPs and regular customers.
+Linked lists are also good when memory is tight, since arrays can be harder
+to resize. Plus, linked lists are the base for other structures like
+queues and stacks, so learning them now is important for building more
+complex systems later.
 '''
